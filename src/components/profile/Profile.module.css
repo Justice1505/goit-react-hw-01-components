@@ -1,0 +1,65 @@
+.profile {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: fit-content;
+
+  text-align: center;
+
+  border: solid 2px black;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 5px;
+  background: white;
+}
+
+.stats {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-evenly;
+
+  list-style: none;
+
+  border-top: solid 1px black;
+}
+
+.item {
+  display: grid;
+  justify-items: center;
+  justify-content: space-around;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  width: 70px;
+}
+
+.label {
+  margin-bottom: 10px;
+
+  font-family: fantasy;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.name {
+  font-size: larger;
+  font-weight: 900;
+}
+
+.tag {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.location {
+  font-size: medium;
+  font-weight: 400;
+
+  font-style: italic;
+}
